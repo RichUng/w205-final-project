@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: gtfs-realtime-bindings
+Version: 0.0.5
+Summary: Python classes generated from the GTFS-realtime protocol buffer specification.
+Home-page: https://github.com/google/gtfs-realtime-bindings
+Author: Google Inc.
+Author-email: gtfs-realtime@googlegroups.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: protobuf
+Requires-Dist: setuptools
+
+UNKNOWN
+
+
