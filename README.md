@@ -15,6 +15,9 @@ w205-final-project.cspk3mfgs5hv.us-east-1.redshift.amazonaws.com
 #### Default Database
 dev
 #### Credentials
+
+(Btw...Never ever post master credentials on GitHub, I'm only doing this because this is just a project)
+
 Master Username: w205
 
 Master Password: W205final
