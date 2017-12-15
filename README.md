@@ -6,7 +6,7 @@ https://docs.google.com/document/d/1JIP-m5Fz2fZq96D78muixMvgrbWwGmyBHJIHJreo8dY/
 
 ## Powerpoint Presentation
 * Final Presentation Powerpoint
-  * https://docs.google.com/presentation/d/1G7sQwsrevRdYoSHLpIscKi3sLB-p9J63iWhVfoOSuo4/edit?usp=sharing
+  * https://docs.google.com/presentation/d/1TKMiFkk51V3EwioeHWTxsdTUgc-i-tPFCuxD4uFuvHQ/edit?usp=sharing
 * Proposal Powerpoint
   * https://docs.google.com/presentation/d/1Qe2OxUPs6KSe2GOmhcrYmSX_CIWHE-h9t6ad1qJIWio/edit?usp=sharing
 * Progress Powerpoint
