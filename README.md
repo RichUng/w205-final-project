@@ -2,13 +2,21 @@
 ###### James Black, Ramsey Magana, Aniruddh Nautiyal, Rich Ung
 
 ## Set-Up Instructions
-See Google Doc: https://docs.google.com/document/d/1JIP-m5Fz2fZq96D78muixMvgrbWwGmyBHJIHJreo8dY/edit?usp=sharing
+https://docs.google.com/document/d/1JIP-m5Fz2fZq96D78muixMvgrbWwGmyBHJIHJreo8dY/edit?usp=sharing
 
 ## Powerpoint Presentation
-See Google Slides: https://docs.google.com/presentation/d/1G7sQwsrevRdYoSHLpIscKi3sLB-p9J63iWhVfoOSuo4/edit?usp=sharing
+* Final Presentation Powerpoint
+  * https://docs.google.com/presentation/d/1G7sQwsrevRdYoSHLpIscKi3sLB-p9J63iWhVfoOSuo4/edit?usp=sharing
+* Proposal Powerpoint
+  * https://docs.google.com/presentation/d/1Qe2OxUPs6KSe2GOmhcrYmSX_CIWHE-h9t6ad1qJIWio/edit?usp=sharing
+* Progress Powerpoint
+  * In Powerpoints folder
 
 ## Colaboratory Doc
 https://colab.research.google.com/notebook#fileId=1QWwCsd6YLo3iBQVce0Hs_I-ldoACU1AY
+
+## Diagrams
+https://www.lucidchart.com/invitations/accept/d7295df6-b367-4beb-a5f4-777a172a6ce0
 
 ## Authentication Information
 ### Redshift
