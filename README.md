@@ -18,6 +18,9 @@ https://colab.research.google.com/notebook#fileId=1QWwCsd6YLo3iBQVce0Hs_I-ldoACU
 ## Diagrams
 https://www.lucidchart.com/invitations/accept/d7295df6-b367-4beb-a5f4-777a172a6ce0
 
+## Rich's AWS Management Console
+https://133706797667.signin.aws.amazon.com/console
+
 ## Authentication Information
 ### Redshift
 * JDBC URL:
