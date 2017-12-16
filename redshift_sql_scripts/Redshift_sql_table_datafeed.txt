@@ -11,5 +11,6 @@ create table data_feed(
 	shape_id varchar(255),
 	trip_short_name varchar(255),
 	bikes_allowed varchar(255),
-	wheelchair_accessible varchar(255)
+	wheelchair_accessible varchar(255),
+	agency varchar(255)
 	);
