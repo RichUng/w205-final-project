@@ -1,0 +1,11 @@
+# Purge Redshift of old table and create new table
+
+drop table vehicle_position;
+create table vehicle_position(
+	vehicle_id varchar(4) not null distkey sortkey,
+	t_stamp varchar(10),
+	position_latitude varchar(255),
+	position_longitude varchar(255),
+	trip_id varchar(10),
+	agency varchar(4)
+	);	
