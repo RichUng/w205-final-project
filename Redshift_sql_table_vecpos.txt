@@ -1,4 +1,4 @@
-# Purge Redshift of old table and create new table
+# Purge Redshift of old table and create new vehicle_position table
 
 drop table vehicle_position;
 create table vehicle_position(
