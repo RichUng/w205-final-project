@@ -1,6 +1,6 @@
 # Purge Redshift of old table and create new data_feed table
 
-drop table data_feed;
+drop table if exists data_feed;
 create table data_feed(
 	route_id varchar(255) not null distkey sortkey,
 	service_id varchar(255),
