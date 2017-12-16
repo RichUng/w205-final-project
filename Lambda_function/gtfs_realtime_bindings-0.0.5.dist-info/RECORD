@@ -1,0 +1,13 @@
+gtfs_realtime_bindings-0.0.5-py3.5-nspkg.pth,sha256=9MBlVtVsp2WNGKKQtQ6CCMWatlLlz9z_NfGKn1LZMPc,306
+google/transit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google/transit/gtfs_realtime_pb2.py,sha256=CbLGpLBFdBNUdBvMOEjzrWF2U_2zy6UoV-3DFkOj20E,53087
+gtfs_realtime_bindings-0.0.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+gtfs_realtime_bindings-0.0.5.dist-info/METADATA,sha256=sd6V6YIG6Yh826nzHzwUwP_f32GuUJJxx318hsQrGww,665
+gtfs_realtime_bindings-0.0.5.dist-info/RECORD,,
+gtfs_realtime_bindings-0.0.5.dist-info/WHEEL,sha256=Kvw2pRt2v2ypm9orErmwv3Ywm0rn-y_GlQ4O8X4peSY,98
+gtfs_realtime_bindings-0.0.5.dist-info/metadata.json,sha256=fTS95QTfCrs-4eBOah2dLbeLiI6uky6vAhQKppQHWoI,837
+gtfs_realtime_bindings-0.0.5.dist-info/namespace_packages.txt,sha256=_1QvSJIhFAGfxb79D6DhB7SUw2X6T4rwnz_LLrbcD3c,7
+gtfs_realtime_bindings-0.0.5.dist-info/top_level.txt,sha256=_1QvSJIhFAGfxb79D6DhB7SUw2X6T4rwnz_LLrbcD3c,7
+gtfs_realtime_bindings-0.0.5.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+google/transit/__pycache__/__init__.cpython-35.pyc,,
+google/transit/__pycache__/gtfs_realtime_pb2.cpython-35.pyc,,
