@@ -1,6 +1,6 @@
 # Purge Redshift of old table and create new vehicle_position table
 
-drop table vehicle_position;
+drop table if exists vehicle_position;
 create table vehicle_position(
 	vehicle_id varchar(255) not null distkey sortkey,
 	t_stamp varchar(255),
