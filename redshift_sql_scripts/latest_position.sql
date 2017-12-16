@@ -17,6 +17,6 @@ SELECT * FROM
     B.shape_id,
     C.name AS operator_name
   FROM vehicle_position A
-  LEFT OUTER JOIN data_feed_rich B ON TRIM(A.trip_id) = TRIM(B.trip_id)
-  LEFT OUTER JOIN operator_list_rich C ON TRIM(A.agency) = TRIM(C.id))
+  LEFT OUTER JOIN data_feed B ON TRIM(A.trip_id) = TRIM(B.trip_id)
+  LEFT OUTER JOIN operator_list C ON TRIM(A.agency) = TRIM(C.id))
 WHERE order_number = 1
