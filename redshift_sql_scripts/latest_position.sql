@@ -1,3 +1,4 @@
+DROP VIEW IF EXISTS latest_position;
 CREATE VIEW latest_position AS
 SELECT * FROM
 (
@@ -19,4 +20,4 @@ SELECT * FROM
   FROM vehicle_position A
   LEFT OUTER JOIN data_feed B ON TRIM(A.trip_id) = TRIM(B.trip_id)
   LEFT OUTER JOIN operator_list C ON TRIM(A.agency) = TRIM(C.id))
-WHERE order_number = 1
+WHERE order_number = 1;
