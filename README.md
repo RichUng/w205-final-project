@@ -38,6 +38,8 @@ https://www.lucidchart.com/invitations/accept/d7295df6-b367-4beb-a5f4-777a172a6c
 
 ## Rich's AWS Management Console
 https://133706797667.signin.aws.amazon.com/console
+* Username: edfine
+* Password: *m8o2WJ|^GBR
 
 ## Authentication Information
 ### Redshift
