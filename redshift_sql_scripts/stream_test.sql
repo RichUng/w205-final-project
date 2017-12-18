@@ -1,1 +1,0 @@
-create table stream_test ( message text );
