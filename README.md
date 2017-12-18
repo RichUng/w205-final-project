@@ -5,15 +5,26 @@
 
 ### Scope
 
-The purpose of this project is to design an end-to-end data flow to visualize transportation data. We use a lambda function and python scripts to pull data from different APIs into S3 and Amazon Kinesis, and pipe the data into Amazon Redshift, our serving layer. This will allow users to see the latest position of a vehicle in real-time and allow the user to filter the vehicle by variables such as the operator name. Since we are streaming data with Kinesis, we are involving real-time analytics (velocity). We are using multiple data sources ("GTFS Operator List", trips.txt files from the "GTFS DataFeed", and the "GTFS-Realtime Vehicle Positions" API to simulate streaming data) that are merged to create the final view table, "latest_position". Since we are using S3 as our data lake and storage layer, and Amazon Kinesis can scale out to handle more data by adding more shards and streams, this solution has the potential to handle high volumes of data.
+The purpose of this project is to design an end-to-end data flow and visualize transportation data. We use a lambda function and python scripts to pull data from various APIs into S3 and Amazon Kinesis, and further pipe the data into Amazon Redshift, our serving layer. This will allow users to see the latest position of a vehicle in real-time and allow users to filter the vehicle by variables such as the operator name.
+* Since we are streaming data with Amazon Kinesis, we are involving real-time analytics (velocity).
+* We are using multiple data sources ("GTFS Operator List", trips.txt files from the "GTFS DataFeed", and the "GTFS-Realtime Vehicle Positions" API to simulate streaming data) that are cleaned and merged to create the final view table, "latest_position".
+* Since S3 is highly scalable and acts as our storage layer, and Amazon Kinesis can scale out to handle more data by simply adding more shards, this solution has the potential to handle high volumes of data.
 
 ### Functional
 
-This GitHub repository includes all code that's necessary to execute our end-to-end data flow. We combine 3 datasets together when creating our final view table for Tableau, and regularly update our data through streaming new data into Kinesis. We clean the data when ingesting the static tables by adding an "Agency" column to one of our datasets and remove whitespaces between trip_ids in order to perform a proper join between the datasets, and believe that this will help provide an easy experience for the end user to see the current location of a vehicle in real-time.
+This GitHub repository includes all code that's necessary to execute our end-to-end data flow.
+* We combine 3 different datasets together when creating our final view table for Tableau.
+* We regularly update our data through streaming new data into Kinesis.
+* We clean the data when ingesting the static tables by adding an "Agency" column to one of our datasets and remove whitespaces between trip_ids in order to perform a proper join between the datasets
+* We believe that this will help provide an easy experience for the end user to see the current location of a vehicle in real-time.
 
 ### Design/Architecture
 
-We chose an AWS design (using Lambda functions, Kinesis, S3, and Redshift) because it allows us to concentrate on the implementation of the end-to-end data flow without needing to maintain servers. These services require minimum server maintenance, and can be considered to be a serverless architecture. While it does provide us with less control over our architecture versus implementing our own servers and services such as Apache Kafka, it allows us to concentrate more on the data flow aspect of the project. This solution is capable of scaling as we add more data into S3, Kinesis, and Redshift since Kinesis only requires more shards if we add more data and Redshift only requires more nodes of we add more data, and this implementation also has clear processing and service layers (we use S3, Python scripts, and Kinesis Firehose to process our data and use Amazon Redshift as our serving layer).
+We chose to use an AWS ecosystem (Lambda functions, Kinesis, S3, and Redshift) because we believe its native services would simplify our tools and processes. These services also require minimal server maintenance, and allows us to build a more serverless architecture.
+* This solution is capable of scaling as we add more data into S3, Kinesis, and Redshift since Kinesis only requires more shards if we add more data and Redshift only requires more nodes of we add more data
+* This implementation also has clear processing and service layers
+  * Processing layers: S3, Python scripts, and Kinesis Firehose
+  * Serving layer: Amazon Redshift
 
 ### Additional Information
 
