@@ -35,7 +35,7 @@ https://docs.google.com/document/d/1JIP-m5Fz2fZq96D78muixMvgrbWwGmyBHJIHJreo8dY/
 
 ## Powerpoint Presentation
 * Final Presentation Powerpoint
-  * https://docs.google.com/presentation/d/1TKMiFkk51V3EwioeHWTxsdTUgc-i-tPFCuxD4uFuvHQ/edit?usp=sharing
+  * In Powerpoints folder
 * Proposal Powerpoint
   * In Powerpoints folder
 * Progress Powerpoint
