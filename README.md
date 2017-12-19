@@ -31,7 +31,7 @@ We chose to use an AWS ecosystem (Lambda functions, Kinesis, S3, and Redshift) b
 We can scale this solution by simply adding more data into S3 through Python scripts if they are static datasets, or use Amazon Kinesis to pipe data into S3 and Redshift if they are streaming datasets. This allows to scale our solution in the future by either having more services connect to Amazon Kinesis to handle real-time processing, or use Amazon EMR (Elastic MapReduce) to run Spark or Hadoop based jobs on our S3 datasets (which we can use as our source of truth and large scale data processing). In the future, we envision additional datasets are incorporated by piping them into S3 and Kinesis, and future processing and technological needs are incorporated by having these additional technologies (such as Spark or Hive) to connect to S3 and Kinesis for additional processing.
 
 ## Set-Up Instructions
-https://docs.google.com/document/d/1JIP-m5Fz2fZq96D78muixMvgrbWwGmyBHJIHJreo8dY/edit?usp=sharing
+Refer to "W205 Final Project Set-Up Instructions.pdf" 
 
 ## Powerpoint Presentation
 * Final Presentation Powerpoint
@@ -42,7 +42,8 @@ https://docs.google.com/document/d/1JIP-m5Fz2fZq96D78muixMvgrbWwGmyBHJIHJreo8dY/
   * In Powerpoints folder
 
 ## Colaboratory Doc
-https://colab.research.google.com/notebook#fileId=1QWwCsd6YLo3iBQVce0Hs_I-ldoACU1AY
+The colaboratory code can be found here:  https://colab.research.google.com/notebook#fileId=1QWwCsd6YLo3iBQVce0Hs_I-ldoACU1AY
+or can be found locally at "load_static_datasets\W205 Final Project"
 
 ## Diagrams
 https://www.lucidchart.com/invitations/accept/d7295df6-b367-4beb-a5f4-777a172a6ce0
