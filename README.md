@@ -31,7 +31,9 @@ We chose to use an AWS ecosystem (Lambda functions, Kinesis, S3, and Redshift) b
 We can scale this solution by simply adding more data into S3 through Python scripts if they are static datasets, or use Amazon Kinesis to pipe data into S3 and Redshift if they are streaming datasets. This allows to scale our solution in the future by either having more services connect to Amazon Kinesis to handle real-time processing, or use Amazon EMR (Elastic MapReduce) to run Spark or Hadoop based jobs on our S3 datasets (which we can use as our source of truth and large scale data processing). In the future, we envision additional datasets are incorporated by piping them into S3 and Kinesis, and future processing and technological needs are incorporated by having these additional technologies (such as Spark or Hive) to connect to S3 and Kinesis for additional processing.
 
 ## Set-Up Instructions
-Refer to "W205 Final Project Set-Up Instructions.pdf" 
+Refer to "W205 Final Project Set-Up Instructions.pdf"
+
+**Note: All access keys, secret keys, and username/passwords are deactivated and must be replaced with new credentials that are created while going through the guide.**
 
 ## Powerpoint Presentation
 * Final Presentation Powerpoint
@@ -42,53 +44,11 @@ Refer to "W205 Final Project Set-Up Instructions.pdf"
   * In Powerpoints folder
 
 ## Colaboratory Doc
-The colaboratory code can be found here:  https://colab.research.google.com/notebook#fileId=1QWwCsd6YLo3iBQVce0Hs_I-ldoACU1AY
+The colaboratory code can be found here: https://colab.research.google.com/notebook#fileId=1QWwCsd6YLo3iBQVce0Hs_I-ldoACU1AY
 or can be found locally at "load_static_datasets\W205 Final Project"
 
 ## Diagrams
-https://www.lucidchart.com/invitations/accept/d7295df6-b367-4beb-a5f4-777a172a6ce0
-
-## Rich's AWS Management Console
-https://133706797667.signin.aws.amazon.com/console
-* Username: edfine
-* Password: *m8o2WJ|^GBR
-
-## Authentication Information
-### Redshift
-* JDBC URL:
-  * jdbc:redshift://w205-final-project.cspk3mfgs5hv.us-east-1.redshift.amazonaws.com:5439/dev
-* Server
-  * w205-final-project.cspk3mfgs5hv.us-east-1.redshift.amazonaws.com
-* Port
-  * 5439
-* Default Database
-  * dev
-* Master Username
-  * w205
-* Master Password
-  * W205final
-
-### S3
-* Bucket Name
-  * w205-rich
-* Bucket ARN
-  * arn:aws:s3:::w205-rich
-* Access key ID
-  * AKIAJWJYSHBBOJTWHHTQ
-* Secret access key
-  * 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
-
-### Kinesis Data Stream
-* Access key ID
-  * AKIAJWJYSHBBOJTWHHTQ
-* Secret access key
-  * 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
-* Stream Name
-  * W205
-* Region Name
-  * us-east-1
-* Stream ARN
-  * arn:aws:kinesis:us-east-1:133706797667:stream/W205
+![Concept Diagram](W205 Final Project - Concept Diagram.png)
 
 ### Data Source
 * GTFS-Realtime Vehicle Positions
