@@ -48,7 +48,7 @@ The colaboratory code can be found here: https://colab.research.google.com/noteb
 or can be found locally at "load_static_datasets\W205 Final Project"
 
 ## Diagrams
-![Concept Diagram](W205 Final Project - Concept Diagram.png)
+![Concept Diagram](concept_diagram.png)
 
 ### Data Source
 * GTFS-Realtime Vehicle Positions
