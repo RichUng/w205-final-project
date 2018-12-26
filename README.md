@@ -31,7 +31,7 @@ We chose to use an AWS ecosystem (Lambda functions, Kinesis, S3, and Redshift) b
 We can scale this solution by simply adding more data into S3 through Python scripts if they are static datasets, or use Amazon Kinesis to pipe data into S3 and Redshift if they are streaming datasets. This allows to scale our solution in the future by either having more services connect to Amazon Kinesis to handle real-time processing, or use Amazon EMR (Elastic MapReduce) to run Spark or Hadoop based jobs on our S3 datasets (which we can use as our source of truth and large scale data processing). In the future, we envision additional datasets are incorporated by piping them into S3 and Kinesis, and future processing and technological needs are incorporated by having these additional technologies (such as Spark or Hive) to connect to S3 and Kinesis for additional processing.
 
 ## Set-Up Instructions
-Refer to [W205 Final Project Set-Up Instructions.pdf]('./W205%20Final%20Project%20Set-Up%20Instructions.pdf').
+Refer to [W205 Final Project Set-Up Instructions.pdf](./W205%20Final%20Project%20Set-Up%20Instructions.pdf).
 
 **Note: All access keys, secret keys, and username/passwords are deactivated and must be replaced with new credentials that are created while going through the guide.**
 
